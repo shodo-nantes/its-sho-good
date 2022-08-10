@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+    config:
+      server:
+        git:
+          uri: https://github.com/shodo-nantes/its-sho-good
+          search-paths: config-server-repo
+
+  application:
+    name: config-server
+server:
+  port: 8888
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9002/eureka/

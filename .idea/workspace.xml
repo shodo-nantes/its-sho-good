@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c630d2-fe9d-47e4-a89a-e81da2c3d048" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-repo/eureka-server.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server-repo/eureka-server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-repo/eureka-server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/shogood/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/shogood/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +87,11 @@
       <recent name="com.shodonantes.io.shodogoodies" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.All in generated-requests">
-    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.ZuulServerApplication">
+    <configuration name="ShoGood" type="CompoundRunConfigurationType">
+      <toRun name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" />
       <method v="2" />
     </configuration>
     <configuration name="LoginWithEmailControllerTest.should_publish_LoginWitheEmailEvent_Object_When_Given_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -138,6 +122,7 @@
       </method>
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shogood.configserver.ConfigServerApplication" />
       <method v="2">
@@ -151,28 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shodo-goodies" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shodonantes.io.shodogoodies.ProductCatalog.ProductCatalogApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shodonantes.io.shodogoodies.ProductCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShodoGoodiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="shodo-goodies" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shodonantes.io.shodogoodies.ShodoGoodiesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="zuul-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shogood.zuulserver.ZuulServerApplication" />
       <method v="2">
@@ -180,22 +145,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.All in generated-requests" />
-      <item itemvalue="HTTP Request.generated-requests | #1" />
-      <item itemvalue="HTTP Request.generated-requests | #2" />
+      <item itemvalue="Compound.ShoGood" />
       <item itemvalue="JUnit.LoginWithEmailControllerTest.should_publish_LoginWitheEmailEvent_Object_When_Given_String" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
-      <item itemvalue="Spring Boot.ShodoGoodiesApplication" />
-      <item itemvalue="Spring Boot.ProductCatalogApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.All in generated-requests" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="Spring Boot.ProductCatalogApplication" />
         <item itemvalue="JUnit.LoginWithEmailControllerTest.should_publish_LoginWitheEmailEvent_Object_When_Given_String" />
       </list>
     </recent_temporary>
@@ -213,7 +170,7 @@
       <workItem from="1659685382665" duration="3000" />
       <workItem from="1660117452976" duration="631000" />
       <workItem from="1660130428636" duration="398000" />
-      <workItem from="1660130989333" duration="3120000" />
+      <workItem from="1660130989333" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to make a login microservice">
       <created>1656683339139</created>
