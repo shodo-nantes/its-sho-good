@@ -7,11 +7,8 @@
     <list default="true" id="39c630d2-fe9d-47e4-a89a-e81da2c3d048" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server-repo/zuul-server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-repo/zuul-server.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/shogood/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/shogood/configserver/ConfigServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/thoma/Documents/its-sho-good/eureka-server/pom.xml",
+    "last_opened_file_path": "C:/Users/thoma/Documents/its-sho-good/microservice-commandes/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +88,7 @@
       <recent name="com.shodonantes.io.shodogoodies" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.ShoGood">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="ShoGood" type="CompoundRunConfigurationType">
       <toRun name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" />
@@ -140,6 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="McommandesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mcommandes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mcommandes.McommandesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="zuul-server" />
@@ -151,6 +155,7 @@
     <list>
       <item itemvalue="Compound.ShoGood" />
       <item itemvalue="JUnit.LoginWithEmailControllerTest.should_publish_LoginWitheEmailEvent_Object_When_Given_String" />
+      <item itemvalue="Spring Boot.McommandesApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
@@ -177,7 +182,7 @@
       <workItem from="1659685382665" duration="3000" />
       <workItem from="1660117452976" duration="631000" />
       <workItem from="1660130428636" duration="398000" />
-      <workItem from="1660130989333" duration="12004000" />
+      <workItem from="1660130989333" duration="15575000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to make a login microservice">
       <created>1656683339139</created>
