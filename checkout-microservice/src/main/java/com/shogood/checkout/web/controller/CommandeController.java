@@ -9,7 +9,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.Date;
+import java.time.Instant;
 import java.util.Optional;
+
+import static java.time.LocalTime.now;
 
 @RestController
 public class CommandeController {
@@ -19,6 +23,7 @@ public class CommandeController {
 
     public CommandeController(CommandesDao commandesDao) {
         this.commandesDao = commandesDao;
+        this.commandesDao.save(new Commande(0, 0, Date.from(Instant.now()), 1, true));
     }
 
     @PostMapping (value = "/checkout")
