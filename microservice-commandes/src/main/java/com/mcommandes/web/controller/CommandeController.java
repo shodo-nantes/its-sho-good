@@ -15,10 +15,14 @@ import java.util.Optional;
 @RestController
 public class CommandeController {
 
-    @Autowired
+    final
     CommandesDao commandesDao;
 
-    @PostMapping (value = "/commandes")
+    public CommandeController(CommandesDao commandesDao) {
+        this.commandesDao = commandesDao;
+    }
+
+    @PostMapping (value = "/checkout")
     public ResponseEntity<Commande> ajouterCommande(@RequestBody Commande commande){
 
         Commande nouvelleCommande = commandesDao.save(commande);
@@ -28,7 +32,7 @@ public class CommandeController {
         return new ResponseEntity<Commande>(commande, HttpStatus.CREATED);
     }
 
-    @GetMapping(value = "/commandes/{id}")
+    @GetMapping(value = "/checkout/{id}")
     public Optional<Commande> recupererUneCommande(@PathVariable int id){
 
         Optional<Commande> commande = commandesDao.findById(id);
@@ -43,7 +47,7 @@ public class CommandeController {
     * save() mettra à jours uniquement les champs renseignés dans l'objet commande reçu. Ainsi dans ce cas, comme le champs date dans "commande" n'est
     * pas renseigné, la date précédemment enregistrée restera en place
     **/
-    @PutMapping(value = "/commandes")
+    @PutMapping(value = "/checkout")
     public void updateCommande(@RequestBody Commande commande) {
 
         commandesDao.save(commande);
