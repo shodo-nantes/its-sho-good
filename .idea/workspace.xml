@@ -88,7 +88,7 @@
       <recent name="com.shodonantes.io.shodogoodies" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Compound.ShoGood">
     <configuration name="ShoGood" type="CompoundRunConfigurationType">
       <toRun name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" />
